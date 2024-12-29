@@ -1,0 +1,45 @@
+.notifications {
+    background: #f9f9f9;
+    border-left: 2px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .notifications h3 {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .notifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .notification {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .notification.privateMessage {
+    background: #e6f7ff;
+    border-color: #91d5ff;
+  }
+  
+  .notification.userJoined {
+    background: #f6ffed;
+    border-color: #b7eb8f;
+  }
+  
+  .notification.forexUpdate {
+    background: #fffbe6;
+    border-color: #ffe58f;
+  }
+  
